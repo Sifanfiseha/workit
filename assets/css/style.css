@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Fraunces";
+    src: url(../fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf)
+        format("truetype");
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/manrope/Manrope-VariableFont_wght.ttf) format("truetype");
+}
+:root {
+    --serif: "Fraunces", serif;
+    --sans-serif: "Manrope", sans-serif;
+    --color-primary: #24053e;
+    --color-cta: #44ffa1;
+    --color-secondary: #584d62;
+    --color-bg: #fcf8ff;
+    --white: #ffffff;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: var(--serif);
+}
