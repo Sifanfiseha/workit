@@ -75,6 +75,7 @@ h1 span {
     align-self: center;
     border: 1px solid #44ffa1;
     transition: 0.3s ease;
+    /* color: ; */
 }
 .btn:hover {
     background-color: var(--color-primary);
