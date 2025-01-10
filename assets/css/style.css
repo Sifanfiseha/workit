@@ -26,7 +26,7 @@ body {
 }
 .hero {
     padding: 3rem;
-    min-height: 100vh;
+    min-height: 700px;
     width: 100%;
     background-color: var(--color-primary);
     color: var(--white);
@@ -82,7 +82,8 @@ h1 span {
     color: var(--color-cta);
 }
 .hero-image {
-    width: 50%;
+    transition: 0.3 ease;
+    width: 700px;
     margin: 0 auto;
     position: absolute;
     bottom: -200px;
@@ -257,4 +258,37 @@ footer {
     align-items: center;
     gap: 2rem;
     color: var(--color-primary);
+}
+@media (max-width: 915px) {
+    .futures {
+        flex-direction: column;
+        margin: 8rem auto;
+    }
+    .future {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        margin: 0 3rem;
+        /* margin-top: 5rem; */
+    }
+    .circle {
+        align-self: center;
+    }
+    .futures-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .futures-content p {
+        text-align: start;
+    }
+    .hero-image {
+        /* padding-top: -5rem; */
+        bottom: -78px;
+        width: 500px;
+    }
+    .cta {
+        margin: 14rem auto 0 auto;
+    }
 }
